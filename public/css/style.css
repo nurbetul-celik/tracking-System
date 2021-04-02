@@ -1,0 +1,43 @@
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    ms-flex-align: center;
+    align-items: center;
+    ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0.5rem 0.5rem;
+}
+
+.navbar-expand {
+    ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.main-sidebar {
+
+    overflow-y: hidden;
+    z-index: 1038;
+}
+.navbar-white {
+    background-color: #fff;
+}
+
+.navbar-light {
+    background-color: #f8f9fa;
+}
+.nav-item
+{
+    margin-bottom:0
+}
+.nav-link{margin-bottom:.2rem}
+.d-none{display:none!important}
+.d-sm-inline-block{display:inline-block!important}
+
+
+
+
+
