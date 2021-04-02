@@ -27,8 +27,7 @@ class AdminController extends Controller
 
     public function getTask()
     {
-        $task = Task::all();
-       // $task = Task::where('status', 'active')->orderByDesc('id')->paginate(5);
+        $task = Task::where('status', 'active')->orderByDesc('id')->paginate(5);
         Facades\View::share('task', $task);
         return view('backend.admin-task');
     }
